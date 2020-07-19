@@ -1,0 +1,585 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+*{
+    font-family: 'Poppins',
+    sans-serif !important;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth!important;
+}
+
+
+.line {
+    background: #2E2970;
+    height: 7px;
+    border-radius: 3px;
+    width: 0%;
+    position: fixed;
+    top: 0;
+}
+
+.navbar {
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+.navbar-brand {
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+
+.hero {
+    margin-top: 60px !important;
+}
+
+.hero-image img {
+    margin-top: auto;
+    width: 650px;
+}
+
+.hero-title {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 35px;
+    color: #2E2970
+}
+
+.hero-caption {
+    color: #6237A0;
+     font-style: normal;
+     font-weight: 600;
+     font-size: 24px;
+}
+
+.hero-form input {
+    padding: 6px;
+    width: 85%;
+}
+
+form button {
+    background: #2E2970 !important;
+    box-shadow: 2px 8px 20px rgba(74, 74, 74, 0.2);
+    border-radius: 15px;
+    width: 35%;
+    color: #FFF !important;
+}
+
+.hero-2 {
+    margin-top: 30px;
+    padding: 0 !important;
+    margin: 0 !important;
+}
+
+.hero2-image img {
+    height: 700px;
+}
+
+.hero2-title,
+.card-title,
+.m-health-title,
+.last-title {
+     color: #6237A0;
+     font-style: normal;
+     font-weight: 600;
+     font-size: 24px;
+}
+
+.hero2-caption {
+    color: #2E2970;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.third-section {
+    background: url(../images/Vector\ 6.png);
+    background-repeat: no-repeat;
+    background-size: center;
+    height: 3484px;
+}
+
+.cardies {
+    margin-top: 500px;
+}
+
+.card-text {
+    color: #2E2970;
+    padding: 1em;
+    margin: 1em;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 17px;
+}
+
+.card-title {
+     padding: 1em;
+}
+
+.third-section-img img {
+    height: 700px;
+    margin-top: 90px;
+    margin-left: 110px;
+}
+
+.aside-img img {
+    height: 700px;
+    margin-top: 30px;
+}
+
+.cardy .card {
+    border-radius: 20px;
+    height: auto;
+    padding: 3em;
+}
+
+.thirdy {
+    margin-top: 150px;
+}
+
+.third-sec-parag {
+    margin-bottom: 30px;
+}
+
+.main-aside-images {
+    margin-top: 200px;
+}
+
+.body-img img {
+    margin-top: -500px;
+    margin-bottom: 30px;
+    height: 900px;
+}
+
+.m-health-para p {
+    color: #2D296F;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 17px;
+}
+
+.last-section {
+    margin-top: 50px;
+    padding: 0 !important;
+}
+
+.last-caption {
+    color: #2E2970;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.last-image img {
+    height: 700px;
+}
+
+.cardi-b .card{
+    border-radius: 20px;
+}
+
+.cardmon .card {
+    border: none;
+}
+
+.cardmon img {
+    width: 100px;
+    color: #6237A0 !important;
+}
+
+.footer {
+    background: url(../images/Vector\ 8.png);
+    margin: auto;
+    padding: auto;
+}
+
+.formik form input {
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer .footer-title{
+    margin: 2em;
+}
+
+.footer-final{
+    color: #2E2970;
+    margin: 1em;
+}
+
+.footer form {
+    margin-bottom: 20px;
+}
+
+
+
+
+/*Responsiveness starts here */
+@media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) {
+    .hero-section {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .body-img img {
+        margin-top: 100px;
+        margin-bottom: 100px;
+        height: 800px;
+    }
+
+    .hero-title {
+        font-size: 20px;
+        align-items: center;
+        text-align: center;
+    }
+
+    .hero-form input {
+        padding: 6px;
+        width: 100%;
+    }
+
+    form button {
+        margin-bottom: 4px;
+    }
+
+    .hero-image {
+        height: 400px;
+        margin-top: 30px;
+    }
+
+    .hero2-image img {
+        height: 400px;
+    }
+
+    .hero2-section {
+        display: flex;
+        justify-content: center !important;
+        align-items: center !important;
+        align-self: center !important;
+        flex-direction: column;
+        text-align: center;
+        margin-top: 35px;
+    }
+
+    .third-section {
+        display: flex;
+        justify-content: center !important;
+        align-items: center !important;
+        align-self: center !important;
+        flex-direction: column;
+    }
+
+    .third-section-img img {
+        display: flex;
+        justify-content: center !important;
+        align-items: center !important;
+        text-align: center !important;
+        height: 400px;
+        margin-top: 90px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .aside-img img {
+        height: 400px;
+        margin-top: 30px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center !important;
+        align-items: center !important;
+        text-align: center !important;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .cardy p .card-text {
+        padding: 0;
+        margin: 0;
+    }
+
+    .cardies {
+        margin-top: 200px;
+    }
+
+    .cardy .card {
+        padding: 0 !important;
+    }
+
+    .body-section {
+        margin-top: 300px;
+    }
+
+    .body-img img {
+        height: 400px;
+    }
+
+    .last-section {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+
+    .last-image img {
+        height: 400px;
+    }
+
+    .checkzy{
+        display: flex;
+        flex-direction: column !important;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    .footer-final {
+        color: #2E2970;
+        margin: 1em;
+    }
+
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (-webkit-min-device-pixel-ratio: 2) {
+    
+
+    .hero-section {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .body-img img {
+        margin-top: 100px;
+        margin-bottom: 100px;
+        height: 800px;
+    }
+
+    .container {
+        max-width: 375px;
+        overflow: hidden;
+    }
+
+    .hero-title {
+        font-size: 20px;
+        align-items: center;
+        text-align: center;
+    }
+
+    .hero-form input {
+        padding: 6px;
+        width: 100%;
+    }
+
+    form button {
+        margin-bottom: 4px;
+    }
+
+    .hero-image {
+        height: 400px;
+        margin-top: 30px;
+    }
+
+    .hero2-image img {
+        height: 400px;
+    }
+
+    .hero2-section {
+        display: flex;
+        justify-content: center !important;
+        align-items: center !important;
+        align-self: center !important;
+        flex-direction: column;
+        text-align: center;
+        margin-top: 35px;
+    }
+
+    .third-section {
+        display: flex;
+        justify-content: center !important;
+        align-items: center !important;
+        align-self: center !important;
+        flex-direction: column;
+    }
+
+    .third-section-img img {
+        display: flex;
+        justify-content: center !important;
+        align-items: center !important;
+        text-align: center !important;
+        height: 400px;
+        margin-top: 90px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .aside-img img {
+        height: 400px;
+        margin-top: 30px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center !important;
+        align-items: center !important;
+        text-align: center !important;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .cardy p .card-text {
+        padding: 0;
+        margin: 0;
+    }
+
+    .cardies {
+        margin-top: 200px;
+    }
+
+    .cardy .card {
+        padding: 0 !important;
+    }
+
+    .body-section {
+        margin-top: 300px;
+    }
+
+    .body-img img {
+        height: 400px;
+    }
+
+    .last-section {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+
+    .last-image img {
+        height: 400px;
+    }
+
+    .checkzy {
+        display: flex;
+        flex-direction: column !important;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    .footer-final {
+        color: #2E2970;
+        margin: 1em;
+    }
+}
+
+@media only screen and (min-device-width: 414px) and (max-device-width: 736px) and (-webkit-min-device-pixel-ratio: 3) {
+     .footer-final {
+         color: #2E2970;
+         margin: 1em;
+     }
+}
+
+@media only screen and (min-device-width: 375px) and (max-device-width: 812px) and (-webkit-min-device-pixel-ratio: 3) {
+    .footer-final {
+        color: #2E2970;
+        margin: 1em;
+    }
+}
+
+@media screen and (device-width: 360px) and (device-height: 640px) and (-webkit-device-pixel-ratio: 2) {
+    .footer-final {
+        color: #2E2970;
+        margin: 1em;
+    }
+}
+
+@media only screen and (min-device-width: 1024px) and (max-device-width: 1366px) and (-webkit-min-device-pixel-ratio: 2) {
+    .container {
+        max-width: 1024px !important;
+    }
+
+    .body-img img {
+        margin-top: 100px;
+        margin-bottom: 100px;
+        height: 800px;
+    }
+}
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 1) {
+    .container {
+        display: flex !important;
+        flex-direction: column !important;
+        justify-content: center;
+        align-items: center;
+        overflow: hidden;
+    }
+
+    .body-img img {
+        margin-top: 100px;
+        margin-bottom: 100px;
+        height: 800px;
+    }
+
+    .hero2-section {
+        display: flex;
+        justify-content: center !important;
+        align-items: center !important;
+        align-self: center !important;
+        flex-direction: column !important;
+        text-align: center;
+        margin-top: 35px;
+    }
+
+    .third-section {
+        display: flex;
+        justify-content: center !important;
+        align-items: center !important;
+        align-self: center !important;
+        flex-direction: column;
+    }
+
+    .third-section-img img {
+        display: flex;
+        justify-content: center !important;
+        align-items: center !important;
+        text-align: center !important;
+        height: 650px;
+        margin-top: 90px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .checkzy {
+        display: flex;
+        flex-direction: column !important;
+        justify-content: center !important;
+        align-items: center !important;
+        text-align: center !important;
+        margin-left: -102px !important;
+    }
+
+    .cardi-b .card {
+       width: fit-content;
+    }
+
+    .last-image img {
+        height: 550px;
+    }
+
+    .hero-image img,
+    .hero2-image img{
+        height: 550px;
+    }
+}
+
